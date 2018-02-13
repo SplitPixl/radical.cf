@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Ubuntu+Mono');
 
 body {
   margin: 0;
@@ -24,4 +24,39 @@ body {
   font-size: 72px;
   font-weight: lighter;
   margin: 0px 16px;
+}
+
+.page .names {
+  font-family: 'Ubuntu Mono', monospace;
+  margin: 0px;
+}
+
+.page .names a {
+  color: #80d8ff;
+}
+
+.down {
+  margin: 12px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.projects {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.projects.show {
+  top: 0;
+  opacity: 1;
 }
