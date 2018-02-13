@@ -36,4 +36,7 @@ window.onload = function () {
   document.querySelector('.down').addEventListener('click', function() {
     document.querySelector('.projects').classList.add('show')
   })
+  document.querySelector('.up').addEventListener('click', function() {
+    document.querySelector('.projects').classList.remove('show')
+  })
 }
