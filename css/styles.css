@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .page {
@@ -16,4 +18,10 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+.page h1 {
+  font-size: 72px;
+  font-weight: lighter;
+  margin: 0px 16px;
 }
